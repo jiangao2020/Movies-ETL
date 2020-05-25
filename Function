@@ -1,0 +1,35 @@
+Import Dependencies
+Extract Data
+
+Transformation
+
+	Wikipedia Movies
+		Create movie dictionary
+		Box office Transformation
+		Budget Transformation
+		Release Date
+		Running Time
+
+	Kaggle Data
+		Adult
+		Video
+		Transform Columns to correct data type
+			
+	Ratings
+		Timestamp
+		
+  Merge dataframes together
+			Release Date
+      Drop unwanted columns
+	
+	Formatting
+		Reorder and rename Columns
+		Group rating data by movie and rename userID 
+		replace nans with 0s
+    
+Load
+	Get sql password
+	create engine
+	connect to server
+	save movies to sql
+	save ratings to sql
